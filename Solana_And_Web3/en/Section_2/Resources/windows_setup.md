@@ -142,6 +142,11 @@ Commitment: confirmed
 
 This means that Solana is set up to talk to our local network! When developing programs, we're going to be working w/ our local Solana network so we can quickly test stuff on our computer.
 
+Download bzip2 in order to run the next command
+```bash
+sudo apt-get install bzip2
+```
+
 The last thing to test is we want to make sure we can get a **local Solana node running**. Basically, remember how we said that the Solana chain is run by "validators"? Well — we can actually set up a validator on our computer to test our programs with.
 
 ```bash
